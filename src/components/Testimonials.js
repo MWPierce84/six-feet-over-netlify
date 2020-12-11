@@ -12,6 +12,11 @@ const TestimonialsContainer = styled.div`
   @media only screen and (max-width: ${props => props.theme.tablet}) {
     min-height: initial;
   }
+
+  @media only screen and (max-width: ${props => props.theme.mobile}) {
+    width: 350px;
+    justify-content: center;
+  }
 `
 
 const ArticleContainer = styled.div`
@@ -26,6 +31,11 @@ const ArticleContainer = styled.div`
     margin-top: 33px;
   }
 
+  @media only screen and (max-width: ${props => props.theme.mobile}) {
+    flex-direction: column;
+    width: 350px;
+  }
+
   article {
   background-color: #354463;
   color: white;
@@ -34,6 +44,10 @@ const ArticleContainer = styled.div`
 
   @media only screen and (max-width: ${props => props.theme.tablet}) {
     width: 300px;
+  }
+
+  @media only screen and (max-width: ${props => props.theme.mobile}) {
+    width: 350px;
   }
 
   z-index: 2;
@@ -77,6 +91,10 @@ const TestimonialImage = styled.div`
     height: initial;
   }
 
+  @media only screen and (max-width: ${props => props.theme.mobile}) {
+    width: 350px;
+  }
+
   div {
     position: relative;
   }
@@ -97,6 +115,10 @@ const DotContainer = styled.div`
       position: relative;
       width: 768px;
       justify-content: center;
+    }
+
+    @media only screen and (max-width: ${props => props.theme.mobile}) {
+      width: 350px;
     }
 `
 
@@ -150,6 +172,10 @@ const Heading = styled.div`
   top: 30px;
   z-index: 10;
   border: 1px solid #3c4557;
+
+  @media only screen and (max-width: ${props => props.theme.mobile}) {
+    left: 92px;
+  }
 
   @media only screen and (max-width: ${props => props.theme.tablet}) {
     top: 65px;
@@ -208,7 +234,7 @@ const Testimonials = ({ testimonials }) => {
 
               <TestimonialImage>
                 <div>
-                {testimonial.image &&
+                {testimonial?.image &&
                   <img alt="" src={testimonial.image.publicURL} />
                 }
                 </div>

@@ -33,7 +33,6 @@ exports.createPages = ({ actions, graphql }) => {
 
     posts.forEach((edge) => {
       const id = edge.node.id
-      console.log(edge.node.frontmatter.templateKey)
       createPage({
         path: edge.node.fields.slug,
         tags: edge.node.frontmatter.tags,
@@ -87,8 +86,8 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   }
 }
 
-exports.sourceNodes = ({ boundActionCreators, getNodes, getNode }) => {
-	const { createNodeField } = boundActionCreators;
+exports.sourceNodes = ({ actions, getNodes, getNode }) => {
+	const { createNodeField } = actions;
 
 	const postsOfAuthors = {};
 	// iterate thorugh all markdown nodes to link books to author

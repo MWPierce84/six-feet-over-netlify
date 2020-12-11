@@ -6,14 +6,6 @@ import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import BlogRoll from '../components/BlogRoll'
 import styled from 'styled-components'
-import remark from 'remark'
-import remarkHTML from 'remark-html'
-
-
-const toHTML = value => remark()
-                            .use(remarkHTML)
-                            .processSync(value)
-                            .toString()
 
 const Heading = styled.div`
   padding: 10px 20px;

@@ -31,6 +31,11 @@ const Hero = styled.div`
   @media only screen and (max-width: ${props => props.theme.tablet}) {
     flex-direction: column;
   }
+
+  @media only screen and (max-width: ${props => props.theme.mobile}) {
+    align-items: center;
+    width: 350px;
+  }
 `
 
 const HeroBox = styled.div`
@@ -38,6 +43,10 @@ const HeroBox = styled.div`
   background-color: #ffffff;
   height: 416px;
   margin-right: 137px;
+  @media only screen and (max-width: ${props => props.theme.mobile}) {
+    width: 325px;
+    margin-right: 0;
+  }
 `
 
 const HeroTagLine = styled.div`
@@ -56,12 +65,23 @@ const HeroHeading = styled.h1`
   line-height: 69px;
   font-size: 56px;
   color: #3c4557;
+  @media only screen and (max-width: ${props => props.theme.mobile}) {
+    width: 320px;
+    font-size: 40px;
+    line-height: 51px;
+    margin-left: 20px;
+  }
 `
 const HeroSubHeading = styled.p`
   margin: 0 53px 0 64px;
   a {
     display: block;
     margin-top: 10px;
+  }
+
+  @media only screen and (max-width: ${props => props.theme.mobile}) {
+    margin: 0 auto;
+    padding: 0 20px;
   }
 `
 
@@ -87,6 +107,16 @@ const Action = styled.div`
     display: flex;
     justify-content: space-around;
     margin: 30px 0 0 0;
+
+    @media only screen and (max-width: ${props => props.theme.mobile}) {
+      flex-direction: column;
+      margin: 0;
+      padding: 0;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      text-align: center;
+    }
     li {
       list-style: none;
       width: 225px;
@@ -107,6 +137,10 @@ const Heading = styled.div`
   text-transform: uppercase;
   font-weight: 300;
   letter-spacing: 2px;
+
+  @media only screen and (max-width: ${props => props.theme.mobile}) {
+    left: 32%;
+  }
 
   &.rel {
     position: relative;
@@ -164,6 +198,10 @@ const Content = styled.div`
   @media only screen and (max-width: ${props => props.theme.tablet}) {
     width: 656px;
   }
+
+  @media only screen and (max-width: ${props => props.theme.mobile}) {
+    width: 350px;
+  }
 `
 
 const ImpactArea = styled.div`
@@ -187,6 +225,9 @@ const ImpactArea = styled.div`
         font-family: ${props => props.theme.fontAccent};
         font-weight: 100;
         margin-bottom: 20px;
+        @media only screen and (max-width: ${props => props.theme.mobile}) {
+          font-size: 40px;
+        }
       }
 
       p {
@@ -194,6 +235,9 @@ const ImpactArea = styled.div`
         font-family: ${props => props.theme.fontHeading};
         font-weight: 100;
         line-height: 36px;
+        @media only screen and (max-width: ${props => props.theme.mobile}) {
+          font-size: 16px;
+        }
       }
     }
   }
@@ -218,6 +262,12 @@ const Headline = styled.h3`
   &.center {
     margin: 50px auto 0 auto;
     width: max-content;
+
+    @media only screen and (max-width: ${props => props.theme.mobile}) {
+      font-size: 30px;
+      width: 350px;
+      text-align: center;
+    }
   }
 `
 

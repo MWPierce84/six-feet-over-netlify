@@ -3,10 +3,6 @@ import { Link } from 'gatsby'
 import styled from 'styled-components'
 
 import logo from '../img/logo.png'
-import facebook from '../img/social/facebook.svg'
-import instagram from '../img/social/instagram.svg'
-import twitter from '../img/social/twitter.svg'
-import vimeo from '../img/social/vimeo.svg'
 
 const FooterContainer = styled.div`
   display: flex;
@@ -16,6 +12,15 @@ const FooterContainer = styled.div`
   @media only screen and (max-width: ${props => props.theme.tablet}) {
     flex-direction: row;
     flex-wrap: wrap;
+  }
+
+  @media only screen and (max-width: ${props => props.theme.mobile}) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 350px;
+    text-align: center;
   }
 `
 
@@ -88,6 +93,12 @@ const FooterLegal = styled.div`
   justify-content: center;
   font-size: 13px;
   margin: 20px auto;
+
+  @media only screen and (max-width: ${props => props.theme.mobile}) {
+    padding-bottom: 50px;
+    text-align: center;
+  }
+
 `
 
 const Footer = class extends React.Component {
@@ -140,34 +151,34 @@ const Footer = class extends React.Component {
 									Store
 								</a>
 							</li>
-          <li>
+          {/* <li>
             <a className="navbar-item donate" href="https://secure.givelively.org/donate/six-feet-over
 " target="_blank" rel="noopener noreferrer">
 									Donate
 								</a>
-          </li>
+          </li> */}
           </ul>
         </Section>
         <Section>
           <h4>Follow Us</h4>
           <ul>
             <li>
-              <a className="navbar-item" target="_blank" rel="noopener noreferer" href="https://www.facebook.com/sixftover/">
+              <a className="navbar-item" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/sixftover/">
                 Facebook - Six Feet Over
               </a>
             </li>
             <li>
-              <a className="navbar-item" target="_blank" rel="noopener noreferer" href="https://www.facebook.com/SuckItSuicide/">
+              <a className="navbar-item" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/SuckItSuicide/">
                 Facebook - Suck It Suicide
               </a>
             </li>
             <li>
-              <a className="navbar-item" target="_blank" rel="noopener noreferer" href="https://www.twitter.com/SuckItSuicide/">
+              <a className="navbar-item" target="_blank" rel="noopener noreferrer" href="https://www.twitter.com/SuckItSuicide/">
                 Twitter
               </a>
             </li>
             <li>
-              <a className="navbar-item" target="_blank" rel="noopener noreferer" href="https://instagram.com/suckitsuicide/">
+              <a className="navbar-item" target="_blank" rel="noopener noreferrer" href="https://instagram.com/suckitsuicide/">
                 Instagram
               </a>
             </li>

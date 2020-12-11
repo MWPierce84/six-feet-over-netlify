@@ -3,7 +3,6 @@ import { Helmet } from 'react-helmet'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import '../../static/scss/main.scss'
-import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 import { ThemeProvider } from "styled-components"
 import StickyFooter from './StickyFooter';
@@ -16,8 +15,6 @@ const TemplateWrapper = ({ seo, children }) => {
 
   let pageTitle = 'Six Feet Over'
   let desc = 'Six Feet Over is a Detroit-based nonprofit working to spread awareness about suicide prevention and provide financial assistance to suicide loss survivors.'
-  let socTitle = 'Six Feet Over'
-  let socDescription = 'Six Feet Over is a Detroit-based nonprofit working to spread awareness about suicide prevention and provide financial assistance to suicide loss survivors.'
   let socImage = ''
   let keywords = ''
 
@@ -25,8 +22,6 @@ const TemplateWrapper = ({ seo, children }) => {
     pageTitle = seo.title
     desc = seo.description
     keywords = seo.keywords
-    socTitle = seo.socialTitle
-    socDescription = seo.socialDescription
     socImage = seo.socialImage.publicURL
   }
 

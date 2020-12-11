@@ -221,7 +221,7 @@ const SectionContent = styled.div`
 `
 
 export const AboutPageTemplate = (props) => {
-  const { title, content, contentComponent, hero, visionSection, goals, founders, members, section } = props
+  const { content, contentComponent, hero, visionSection, goals, founders, members, section } = props
 
   const PageContent = contentComponent || Content
   const foundersContent = toHTML(founders)

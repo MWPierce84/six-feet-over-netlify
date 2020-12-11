@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import styled from 'styled-components'
-import classNames from "classnames"
 
 const StickyContainer = styled.div`
   bottom: 0;
@@ -20,9 +19,17 @@ const StickyContainer = styled.div`
   transition: all 0.2s ease;
   bottom: -180px;
 
+  @media only screen and (max-width: ${props => props.theme.mobile}) {
+      padding: 20px 0;
+      height: initial;
+    }
+
   p {
     text-align: center;
     width: 70%;
+
+
+
   }
 
   a {
@@ -35,17 +42,9 @@ const StickyContainer = styled.div`
   }
 `
 
-
 const StickyFooter = () => {
-
-  const [scrolled, setScrolled] = useState()
-
-  const classes = classNames("header", {
-    scrolled: scrolled,
-  })
-
   return (
-    <StickyContainer className={`${classes}`}>
+    <StickyContainer>
       <h2>ARE YOU IN CRISIS?</h2>
       <p>If you or someone you know is in crisis, you have options. Please text "SIS" to 741741 to speak with a trained counselor; call 1-800-273-TALK (8255) for the <a href="https://suicidepreventionlifeline.org/" target="_blank" rel="noopener noreferrer">National Suicide Prevention Lifeline</a>; call 911; or visit your nearest Emergency Room. </p>
     </StickyContainer>

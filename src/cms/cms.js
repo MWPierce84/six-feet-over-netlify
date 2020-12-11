@@ -10,6 +10,7 @@ import BlogPagePreview from './preview-templates/BlogPagePreview'
 import IndexPagePreview from './preview-templates/IndexPagePreview'
 import ContactPagePreview from './preview-templates/ContactPagePreview'
 
+
 CMS.registerMediaLibrary(uploadcare)
 CMS.registerMediaLibrary(cloudinary)
 

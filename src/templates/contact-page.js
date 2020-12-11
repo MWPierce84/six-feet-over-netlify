@@ -1,95 +1,10 @@
-import React, { useState } from "react"
+import React from "react"
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import PageHeader from '../components/PageHeader'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import { navigate } from 'gatsby-link'
-
-import styled from 'styled-components'
-import remark from 'remark'
-import remarkHTML from 'remark-html'
-
-const Heading = styled.div`
-  padding: 10px 20px;
-  position: absolute;
-  background-color: #3c4557;
-  font-family: ${props => props.theme.fontBase};
-  font-size: 14px;
-  color: #fff;
-  left: 45%;
-  top: -22px;
-  text-transform: uppercase;
-  font-weight: 300;
-  letter-spacing: 2px;
-
-  &.rel {
-    position: relative;
-    top: inherit;
-    left: inherit;
-    display: inline-block;
-
-
-    &.light {
-      background-color: white;
-      color: #3c4557;
-    }
-  }
-
-  &.center {
-    display: flex;
-    justify-content: center;
-    width: max-content;
-    margin: 0 auto;
-  }
-`
-const Section = styled.div`
-
-    display: flex;
-    width: 100%;
-    height: max-content;
-    position: relative;
-    padding: 20px 0;
-
-    text-align: center;
-
-    ul {
-      padding: 0;
-    }
-
-    ul li {
-      list-style: none;
-      font-style: italic;
-    }
-
-    h3 {
-      font-family: ${props => props.theme.fontHeadingBold};
-      font-size: 35px;
-      text-align: center;
-    }
-
-  &.bg-light {
-    background-color: white;
-    color: #000;
-  }
-
-  &.bg-dark {
-    background-color: #3c4557;
-    color: white;
-    text-align: center;
-  }
-`
-
-const SectionContent = styled.div`
-  width: 800px;
-  margin: 0 auto;
-`
-const toHTML = value => remark()
-                            .use(remarkHTML)
-                            .processSync(value)
-                            .toString()
-
-
 
 const encode = (data) => {
   return Object.keys(data)
@@ -99,9 +14,6 @@ const encode = (data) => {
 
 
 export const ContactPageTemplate = (props) => {
-
-  const [activePanel, setPanel] = useState('')
-
 
   const handleChange = (e) => {
     this.setState({ [e.target.name]: e.target.value })
@@ -123,7 +35,7 @@ export const ContactPageTemplate = (props) => {
   }
 
 
-  const { content, contentComponent, hero, section} = props
+  const { content, contentComponent, hero } = props
 
   const PageContent = contentComponent || Content
 

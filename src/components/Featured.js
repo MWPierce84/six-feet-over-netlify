@@ -32,16 +32,6 @@ const FeaturedContent = styled.div`
   padding: 20px;
 `
 
-const FeaturedImage = styled.div`
-  height: 400px;
-  width: 400px;
-  overflow: hidden;
-
-  .gatsby-image-wrapper {
-    width: 100%;
-  }
-`
-
 class Featured extends React.Component {
   render() {
     const { data } = this.props
