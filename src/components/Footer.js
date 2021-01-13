@@ -151,12 +151,12 @@ const Footer = class extends React.Component {
 									Store
 								</a>
 							</li>
-          {/* <li>
+          <li>
             <a className="navbar-item donate" href="https://secure.givelively.org/donate/six-feet-over
 " target="_blank" rel="noopener noreferrer">
 									Donate
 								</a>
-          </li> */}
+          </li>
           </ul>
         </Section>
         <Section>
