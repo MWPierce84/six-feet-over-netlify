@@ -18,7 +18,7 @@ hero:
 section:
   - heading: Apply For Assistance
     content: >-
-      ### Do you need assistance paying for costs associated with the loss of your loved one to suicide? We continue to get applications from those outside of our peramiters and this might help, even though it says it everywhere else.
+      ### Do you need assistance paying for costs associated with the loss of your loved one to suicide?
 
 
       We may be able to help with costs associated with:
