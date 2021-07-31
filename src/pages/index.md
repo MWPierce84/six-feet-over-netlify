@@ -32,7 +32,7 @@ impact:
   title: Our Impact
   description: We invest in a better tomorrow for
   stats:
-    - title: "7"
+    - title: "8"
       description: years running
     - title: "32"
       description: families helped

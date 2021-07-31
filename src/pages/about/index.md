@@ -46,10 +46,7 @@ seo:
 hero:
   heading: Our Organization
   intro: We are a non-profit organization servicing the great state of Michigan.
-    Our mission is to prevent suicide loss through education, advocacy, and
-    support, for survivors of suicide loss, individuals with lived experience of
-    suicide, and those who love and care for someone with mental health
-    struggles.
+    The mission is to provide financial and emotional support for survivors of suicide loss and individuals with lived experience of suicide, while engaging in community prevention through mental health education and advocacy to support healthier futures.
   image: /img/alexander-dummer-uh-xs-fiztk-unsplash-1-.jpg
 section:
   - content: >-
