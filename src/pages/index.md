@@ -10,7 +10,7 @@ seo:
     awareness about suicide prevention and provide financial assistance to
     suicide loss survivors.
   socialImage: /img/sixftover-share.png
-  keywords: suicide prevention
+  keywords: suicide prevention test
   title: Six Feet Over | Suicide Prevention, Postvention, and Awareness Across
     Michigan
 title: Great coffee with a conscience
