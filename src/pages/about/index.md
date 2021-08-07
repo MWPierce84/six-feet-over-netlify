@@ -214,6 +214,22 @@ members:
 
 
       After the loss of her eldest son due to a genetic disorder, Nicole reached the darkest point of her life. Connections with others along with an incredibly talented therapist helped to turn life around. Nicole decided to return to school and earn a Masters and subsequent doctoral degree in Humanistic, clinical, psychology.
+  - photo: /img/hudsonharris.jpeg
+    name: Hudson Harris
+    title: Board Member
+    bio: >-
+      Hudson Harris is skilled communicator and designer whose success is rooted in his diverse background, his experience with human-centered design, and his ability to build a shared understanding and drive change. His knowledge of data, analytics, and the complexities in crafting cross-sector projects brings a unique approach to every engagement. Hudson has earned a reputation for technology-enabled innovation that spans traditional boundaries to create inspired solutions. In the public sector, Hudson works with governments, schools, health care entities, and social service agencies to build better systems of care that integrate behavioral health and technology. In the private sector, Hudson innovates with organizations on product design,consumer/patient experience, and artificial intelligence. Over the past few years, Hudson joined forces with SAP to launch a suicide awareness campaign that led to appearances in Business Insider, Forbes’, and speaking at South by Southwest for the United Nations Sustainable Development Goals. In other talents, Hudson is a California attorney, holds an MBA in Marketing, MA in International Business, and is accredited by the Intl. Assoc. of Privacy Professionals. He is an active supporter of the American Assoc. of Suicidology and Six Feet Over. He also likes to play with wood, his two boys and his bulldog Penny.
+  - photo: /img/bethws.jpg
+    name: Beth Vernon
+    title: Board Member (Fundraising / Donor Relations / Major Events)
+    bio: >-
+      Beth Vernon is a seasoned fundraising professional currently working as the Executive Director of the Grosse Pointe Library Foundation. She and her three children- Galen, Ethan, and Allison - are survivors of the suicide loss of her husband (their father) of 19 years. Beth knows well the comfort of a community of support in times of loss and hopes to return the favor. Her philosophy - ex malo bonum - out of bad, comes good – directed her desire to work with SFO.
+  - photo: /img/bennycapual.jpeg
+    name: Benny Capual
+    title: Board Member (Funeral Professional)
+    bio: >-
+      Benny Capaul, is a 4th generation funeral director in Ida, Michigan. He is a graduate of Wayne State University’s Mortuary Science school. Benny is active on multiple boards, supplying his knowledge and expertise on the topics of death, funeral services and best practices, including Gabby’s Ladder and The Michigan Funeral Directors Association. In additon to his work and board activities he is a husband, father, punk rocker, and podcast co-creator and co-host of ‘Let’s Talk About Death.
+
 ---
 We are passionate about our goals and our mission, and this is why we minimize overhead to just enough to sustain our daily operations. While we fundraise and accept donations for a variety of uses, all of which are dedicated to our mission, we allocate the vast majority of funds raised for direct financial assistance for survivors of suicide loss, helping defray and alleviate the unexpected cost burdens associated with their loss.
 
