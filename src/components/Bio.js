@@ -56,6 +56,10 @@ const BioContainer = styled.div`
     .bio-image {
       margin-right: 50px;
       margin-left: 20px;
+
+      img {
+        height: inherit !important;
+      }
     }
 
   }
@@ -69,6 +73,10 @@ const BioContainer = styled.div`
       .bio-image {
         margin-left: 20px;
         margin-right: 50px;
+
+        img {
+          height: inherit !important;
+        }
       }
     }
 
@@ -117,31 +125,34 @@ const BioContent = styled.div`
 `
 
 const Bio = ({ bio, dir }) => {
-  console.log(dir)
-  const bio_name = bio.name.replace(/\s/g, '-').replace(/[.,]/g, '').toLowerCase()
-  return (
-    <BioContainer id={bio_name} className={`direction-${dir}`}>
+  let bio_name;
+  if (bio.name) {
+    bio_name = bio.name.replace(/\s/g, '-').replace(/[.,]/g, '').toLowerCase()
+  }
+    return (
+      <BioContainer id={bio_name} className={`direction-${dir}`}>
 
-      <BioImage className="bio-image">
-        <PreviewCompatibleImage
-          imageInfo={{
-            image: bio.photo,
-            alt: ``,
-          }}
-        />
-      </BioImage>
+        <BioImage className="bio-image">
+          <PreviewCompatibleImage
+            imageInfo={{
+              image: bio.photo,
+              alt: ``,
+            }}
+          />
+        </BioImage>
 
-      <BioContent className="bio-content">
-        <Heading className={`rel light`}>
-          <strong>{bio.name}</strong> - {bio.title}
-        </Heading>
-        <p>
-          {bio.bio}
-        </p>
-      </BioContent>
+        <BioContent className="bio-content">
+          <Heading className={`rel light`}>
+            <strong>{bio.name}</strong> - {bio.title}
+          </Heading>
+          <p>
+            {bio.bio}
+          </p>
+        </BioContent>
 
-    </BioContainer>
-  )
+      </BioContainer>
+    )
+
 }
 
 export default Bio
