@@ -129,6 +129,8 @@ const Bio = ({ bio, dir }) => {
   if (bio.name) {
     bio_name = bio.name.replace(/\s/g, '-').replace(/[.,]/g, '').toLowerCase()
   }
+
+  let bio_content = bio.bio.replace(/\n/g, '<br />');
     return (
       <BioContainer id={bio_name} className={`direction-${dir}`}>
 
@@ -145,8 +147,7 @@ const Bio = ({ bio, dir }) => {
           <Heading className={`rel light`}>
             <strong>{bio.name}</strong> - {bio.title}
           </Heading>
-          <p>
-            {bio.bio}
+          <p dangerouslySetInnerHTML={{ __html: bio_content }}>
           </p>
         </BioContent>
 
