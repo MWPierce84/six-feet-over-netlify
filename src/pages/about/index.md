@@ -83,7 +83,7 @@ visionSection:
   image: /img/vision-clay-banks-ljqarjajotc-unsplash-1-.jpg
 members:
   - name: Kirsten Bondalapati
-    title: MPH - Board Member
+    title: President
     photo: /img/kirsten-sfo.jpg
     bio: Kirsten Bondalapati lives in Detroit and works as a Service Designer at
       Civilla, where she helps redesign public benefits application systems for
@@ -115,7 +115,7 @@ members:
       member Kristen (who is way out of his league) and his dog Bullet (the
       unofficial mascot of SFO).
   - name: Kristen Golembiewski
-    title: "Board Member/Content Manager "
+    title: IT and Newsletter extraordinair
     photo: /img/kristen-sfo.jpg
     bio: Kristen contributes her knowledge in code and software development to
       assist us with keeping things running and organized. She also writes and
@@ -123,7 +123,7 @@ members:
       Carlos, and our unofficial mascot Bullet.
   - name: Ian Boyle
     photo: /img/ian-sfo.jpg
-    title: Board Member/Events and Booking Coordinator
+    title: Events and Booking Coordinator
     bio: Ian is an experienced SIS volunteer for events and has experience in the
       music industry. Ian lost one of his best friends in 2012, Jason Lockwood,
       which propelled him into his loss survivorship. Ian has a great many
@@ -134,7 +134,7 @@ members:
       places and people.  Ian currently lives in Metro Detroit with his
       girlfriend Kaitlyn and their dogs, Raven and Bandit.
   - name: Lisa Klein
-    title: Board Member/Visual Media
+    title: Brand Ambassador, Visual Media
     bio: An award-winning director and writer dedicated to crafting groundbreaking
       documentary features. Her current project, THE S WORD, is a documentary
       that tackles one of the most cloistered issues of our time through the
@@ -147,7 +147,7 @@ members:
       Southern California.
     photo: /img/lisa-sfo.jpg
   - name: Brooke Brewster
-    title: Board Member/Volunteer Coordinator
+    title: Volunteer Coordinator
     bio: Brooke is from Clio, just outside of Flint. She is a jack of many trades,
       having been a teacher in a variety of high school art classes and worked
       at a greenhouse part time because teachers don’t get paid enough. Brooke
@@ -161,7 +161,7 @@ members:
     photo: /img/brooke-sfo.png
   - photo: /img/nicole-sfo.png
     name: Dr. Nicole Law, PsyD LP
-    title: Board Member
+    title: Clinical
     bio: >-
       Nicole graduated from Michigan State University with a Bachelors of Arts
       in English literature describing a deep desire to understand “the artistic
@@ -217,7 +217,7 @@ members:
       podcast co-creator and co-host of ‘Let’s Talk About Death.
   - name: Dr. Leela Chandrasekar, MD
     photo: /img/2.jpg
-    title: Board Member/Physician and Medical Advisor
+    title: Advisory
     bio: >-
       Leela Chandrasekar is a recent graduate from Central Michigan University
       College of Medicine. She completed her senior year rotations at St. John
@@ -228,7 +228,7 @@ members:
       Passionate about working with children, she has learned a great deal about mental health from the adolescent population in the Detroit area.
   - photo: /img/david-sfo.jpg
     name: David S. Parnell, Esq
-    title: "Board Member / Lawyer "
+    title: Advisory
     bio: David acts as the counsel for Six Feet Over and advises us on all things
       legal. He concentrates his professional practice in deceptive business
       practices, debt collection harassment, class actions and representative
