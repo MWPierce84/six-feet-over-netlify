@@ -62,6 +62,9 @@ const BioContainer = styled.div`
       }
     }
 
+    img {
+        height: inherit !important;
+      }
   }
 
   &.direction-0 {
@@ -79,6 +82,10 @@ const BioContainer = styled.div`
         }
       }
     }
+
+    img {
+          height: inherit !important;
+        }
 
     .bio-content {
       margin-right: 50px;
