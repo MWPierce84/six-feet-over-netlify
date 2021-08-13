@@ -160,16 +160,10 @@ members:
       global intelligence/protection of global assets, and marketing. 
 
 
-
-
       After the loss of her eldest son due to a genetic disorder, Nicole reached the darkest point of her life. Connections with others along with an incredibly talented therapist helped to turn life around. Nicole decided to return to school and earn a Masters and subsequent doctoral degree in Humanistic, clinical, psychology.
 
 
-
-
       During her first clinical internship at Affirmations LGBT cultural center in Ferndale, MI, Nicole witnessed many incidents of suicide and self-harm that seemed to be driven by the disconnect between familial and cultural expectations and the desire to be one’s free, authentic self. Since then, Dr. Law has devoted a large part of her career to helping reduce the risk of suicide in LGBTQ+ youth. Dr. Law is a speaker / advocate, Director of Clinical Training, Director of Diversity, and founder of her practice, Aloe Integrative Psychology Group.
-
-
 
 
       Dr. Law lives in Rochester Hills, MI with her two kids, two dogs, two kittens, and one husband. Although she prefers odd numbers, she can’t seem to escape the number 2.
