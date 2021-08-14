@@ -105,14 +105,6 @@ members:
       currently lives in the Detroit Metro area with his fiance and fellow board
       member Kristen (who is way out of his league) and his dog Bullet (the
       unofficial mascot of SFO).
-  - name: Kristen Golembiewski
-    title: IT and Newsletter extraordinair
-    photo: /img/kristen-sfo.jpg
-    bio: Kristen is a newer addition to the SFO team and contributes her knowledge
-      in code and software development to assist us with keeping things running
-      and organized. She also writes and sends out our newsletter. Kristen lives
-      in Metro Detroit with her fiance, Carlos, and our unofficial mascot
-      Bullet.
   - name: Ian Boyle
     photo: /img/ian-sfo.jpg
     title: Events and Booking Coordinator
