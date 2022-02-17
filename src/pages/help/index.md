@@ -13,27 +13,29 @@ seo:
 hero:
   heading: Have you recently lost someone to suicide
   intro: Experiencing the loss of a loved one to suicide can be a profoundly
-    isolating and challenging life experience. We would like to help.
+    isolating and challenging life experience. Lemon Aid would like to help.
   image: /img/financial-application-kari-shea-qfax7_xjxm4-unsplash.jpg
 section:
-  - heading: Apply For Assistance
+  - heading: OUR SERVICES
     content: >-
-      ### Do you need assistance paying for costs associated with the loss of your loved one to suicide?
+      ### Do you need assistance paying for costs associated with the loss of your loved one to suicide, or need emotional and resource support in Michigan?
 
 
-      We may be able to help with costs associated with:
+      Lemon Aid may be able to help with costs associated with:
 
 
-      * funerals and memorial services
+      * Funerals and Memorial services
 
-      * remembrance items
+      * Granite Memorials/Headstones
 
-      * cleaning services
+      * Urns/Caskets
+
+      * Bio-cleaning services
 
       * various other services
-  - heading: Financial Aid
+  - heading: APPLY FOR HELP
     content: >-
-      ### Click below to apply for financial aid and our staff will follow up as
+      ### Click below to apply and the Lemon Aid staff will follow up as
       urgently as possible to learn more about your needs and discuss your
       options.
 
