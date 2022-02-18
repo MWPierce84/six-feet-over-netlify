@@ -43,9 +43,11 @@ section:
 
       [Click here](https://docs.google.com/forms/d/e/1FAIpQLSdr_VsPCi-I_0CnsqinUwi05W0yQ4X0O6yRacKpU7gQhGj1QQ/viewform)
 
+
   - heading: MARQUETTE, MI
     content: >-
-      ### This short form application will help us to identify if you may qualify for our Lemon Aid Program in Marquette County, Michigan. Third parties (ie- agencies, case workers, friends, relatives) MAY fill out the form on behalf of a family.
+      ### This short form application will help us to identify if you may qualify for our Lemon Aid Program in Marquette County, Michigan.
+      Third parties (ie- agencies, case workers, friends, relatives) MAY fill out the form on behalf of a family.
       
       [Click here](https://docs.google.com/forms/d/e/1FAIpQLSdYlC6GkYFQAalg9dviGP16cDma2P5qp738MCXqUC7BqWyyXA/viewform)
 
