@@ -47,6 +47,6 @@ section:
     content: >-
       ### This short form application will help us to identify if you may qualify for our Lemon Aid Program in Marquette County, Michigan. Third parties (ie- agencies, case workers, friends, relatives) MAY fill out the form on behalf of a family.
       
-      [Click here](https://docs.google.com/forms/d/e/1FAIpQLSdYlC6GkYFQAalg9dviGP16cDma2P5qp738MCXqUC7BqWyyXA/viewform?usp=sf_link)
+      [Click here](https://docs.google.com/forms/d/e/1FAIpQLSdYlC6GkYFQAalg9dviGP16cDma2P5qp738MCXqUC7BqWyyXA/viewform)
 
 ---
