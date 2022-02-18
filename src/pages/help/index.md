@@ -25,9 +25,13 @@ section:
 
 
       #### * Funerals and Memorial services
+      
       #### * Granite Memorials/Headstones
+      
       #### * Urns/Caskets
+      
       #### * Bio-cleaning services
+      
       #### * various other services
 
 
