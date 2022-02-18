@@ -21,20 +21,20 @@ section:
       ### Do you need assistance paying for costs associated with the loss of your loved one to suicide, or need emotional and resource support in Michigan?
 
 
-      Lemon Aid may be able to help with costs associated with:
+      #### Lemon Aid may be able to help with costs associated with:
 
 
-      * Funerals and Memorial services
+      #### * Funerals and Memorial services
 
-      * Granite Memorials/Headstones
+      #### * Granite Memorials/Headstones
 
-      * Urns/Caskets
+      #### * Urns/Caskets
 
-      * Bio-cleaning services
+      #### * Bio-cleaning services
 
-      * various other services
+      #### * various other services
 
-  - heading: APPLY FOR HELP
+  - heading: APPLY FOR HELP BELOW
     content: >-
       ### Click below to apply and the Lemon Aid staff will follow up as
       urgently as possible to learn more about your needs and discuss your
@@ -47,7 +47,7 @@ section:
   - heading: MARQUETTE, MI
     content: >-
       ### This short form application will help us to identify if you may qualify for our Lemon Aid Program in Marquette County, Michigan.
-      Third parties (ie- agencies, case workers, friends, relatives) MAY fill out the form on behalf of a family.
+      #### Third parties (ie- agencies, case workers, friends, relatives) MAY fill out the form on behalf of a family.
       
       [Click here](https://docs.google.com/forms/d/e/1FAIpQLSdYlC6GkYFQAalg9dviGP16cDma2P5qp738MCXqUC7BqWyyXA/viewform)
 
